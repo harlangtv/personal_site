@@ -29,9 +29,6 @@ let mouse = {
 
 let project = 1
 
-// let height = document.body.clientWidth
-// let width = document.body.clientHeight
-
 /************************************************
                 EVENT LISTENERS
 ************************************************/
@@ -125,7 +122,6 @@ class Text {
   constructor(letter, endx, endy) {
     this.letter = letter
     this.x = endx - Math.floor(Math.random() * (3) + 1) * 100
-    // this.y = Math.floor(Math.random() * (8) + 1) * 100
     this.y = endy
     this.ex = endx
     this.color = 0
@@ -204,10 +200,11 @@ function drawText() {
   welcome.push(new Text("E", textx + 780, texty))
 }
 
-paragraph.push(new Paragraph("Harlan Green-Taub is a budding software developer based in Brooklyn, NY.", textx + 50, texty + 100))
-paragraph.push(new Paragraph("He worked 7+ years in all facets of Sports Media", textx + 50, texty + 150))
-paragraph.push(new Paragraph("and jumped into the world of programming by teaching himself Ruby.", textx + 50, texty + 200))
-paragraph.push(new Paragraph("He is looking forward to continuing to build his skills in the field of Web Development.", textx + 50, texty + 250))
+paragraph.push(new Paragraph("Harlan Green-Taub is a budding Full Stack software developer based in Brooklyn, NY, ", textx + 50, texty + 100))
+paragraph.push(new Paragraph("possessing multi-platform technical skills and a driven,", textx + 50, texty + 150))
+paragraph.push(new Paragraph("energetic, enthusiastic attitude with a background in media production.", textx + 50, texty + 200))
+paragraph.push(new Paragraph("He has strong skills in problem solving and logical solution building", textx + 50, texty + 250))
+paragraph.push(new Paragraph("in team-oriented professional environments that led to a passion in web development.", textx + 50, texty + 300))
 
 
 
