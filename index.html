@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Raleway|Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- canvas only used for the top page to create animation effect -->
+    <canvas id="canvas" width="1600" height="900"></canvas>
+
+    <a id="enter" href="#start">ENTER </a>
+
+    <div id="start"></div>
+    <!-- main navbar -->
+    <div id="navbar">
+      <!-- <div class="navline"></div> -->
+      <br />
+      <a class="navlink" href="#canvas">HOME </a>
+      <a class="navlink" href="#technical-projects">TECHNICAL PROJECTS </a>
+      <a class="navlink" href="#professional-experience">PROFESSIONAL EXPERIENCE </a>
+      <a class="navlink" href="#education">EDUCATION</a>
+      <a class="navlink" href="#skills">SKILLS & INTERESTS</a>
+      <a class="navlink" href="#contact">CONTACT</a>
+
+    </div>
+
+
+
+    <div class="outer-block" id="technical-projects">
+      <h3>TECHNICAL PROJECTS</h3>
+          <button id="right-btn"> > </button>
+          <button id="left-btn"> < </button>
+
+          <div class="sm-card" id="project1">
+            <p>MY GARAGE </p>
+            <img src='assets/MYGARAGE_IMG.png' class="thumbnail"/>
+            <p>
+              <a href='https://github.com/harlangtv/MyGarage-frontend' target="_blank">Github</a> |
+              <a href='https://www.youtube.com/watch?v=6_nsGCcEq4Q' target="_blank">Demo</a>
+            <ul>
+              <li>MyGarage is a car management app for car collectors and enthusiasts alike; users can create custom entries for their vehicles and update vehicle details as they change.</li>
+              <li>Full stack app built with a React.jsfrontend with a Rails backend.</li>
+            </ul>
+          </div>
+
+          <div class="sm-card hidden" id="project2">
+            <p>ASTRODOM</p>
+            <img src='assets/ASTRODOM_IMG.png' class="thumbnail"/>
+
+            <p>
+              <a href='https://github.com/pirainogi/astrodom_frontend' target="_blank">Github</a> |
+              <a href='https://www.youtube.com/watch?v=Ex7bu01QB8w&feature=youtu.be' target="_blank">Demo</a></p>
+            <ul>
+              <li>Astrodom is a single page educational game application intended for (children) to learn the Javascript event loop/callstack.</li>
+              <li>Built front-end of the game using vanilla JavaScript with map custom map data built in Ruby on Rails backend. Used postgres for database management. </li>
+            </ul>
+          </div>
+
+          <div class="sm-card hidden" id="project3">
+            <p>STRIVE FITNESS</p>
+            <img src='assets/STRIVE_IMG.png' class="thumbnail"/>
+            <p>
+              <a href='https://github.com/harlangtv/Strive_Fitness' target="_blank"> Github</a> |
+              <a href='https://www.youtube.com/watch?v=UPsiHUy72es&t=6s' target="_blank">Demo</a>
+            </p>
+            <ul>
+              <li>Strive is a fitness goal tracker app built in Ruby on Rails. With Strive, you have the ability to keep track of all of your fitness goals, plan workouts to meet those goals, and see your progress as you follow them through to their conclusion!</li>
+            </ul>
+          </div>
+      </div>
+      <!-- end of Technical Projects Section -->
+
+      <div class="outer-block" id="professional-experience">
+        <h3>PROFESSIONAL EXPERIENCE</h3>
+
+        <br />
+
+        <h4><img class="sm-logo" src="assets/MLBN.png" alt="mlbnetwork-logo"> MLB Advanced Media/MLB Network | Multimedia Producer/Broadcast Associate | Aug 2016 - Nov 2018 </h4>
+          <div class="experience-block">
+            <ul>
+              <li>Internally recruited to an elite team of 4 to structure bespoke complex derivatives solutions that generated P&L from $25k to $2mm per trade</li>
+              <li>Worked hand-in-hand with leadership to negotiate largest margin loan in bank history ($400mm); personally pitched tailored solutions & drove creation of pitch materials & strategies </li>
+              <li>Designed and built client-facing tools for visualizing margin loan impact on clients’ IRR and collateral liquidation strategies for margin loans on convertible bonds</li>
+              <li>Solved internal application issues by building dynamic programs with VBA: </li>
+                <ul>
+                  <li>automated valuation report generator for products with compounding interest</li>
+                  <li>trade database that tracks cumulative and daily P&L changes</li>
+                  <li>margin loan monitor that calculates daily cash flow and tracks interest rate resets</li>
+                </ul>
+            </ul>
+          </div>
+
+        <br />
+
+        <h4> <img class="sm-logo" src="assets/SG-logo.png" alt="socgen-logo">  Société Générale | Equity Derivatives Flow | Jul 2016 - Jan 2018 </h4>
+
+        <div class="experience-block">
+          <ul>
+            <li>Covered over 12 hedge fund clients w. products ranging from vanilla options to exotic derivatives; & insurance clients trading complex index option strategies: calendar spreads, call ratios, rainbows, cliquets & hybrids </li>
+            <li>Single-handedly trained three replacement analysts and created a thorough training manual (~90 pages) that has continued to be used by the team after departure; training manual covered holistic product lines and client trading strategies </li>
+            <li>Attended client meetings to procure new business </li>
+            <li>Selected to spearhead the creation of a new pricing and booking tool that would grow the insurance business to over $16mm a year from $8mm a year</li>
+          </ul>
+        </div>
+      </div>
+        <!-- end of the Professional Experience Section -->
+
+
+        <div class="outer-block" id="education">
+          <br />
+          <br />
+          <h3>EDUCATION</h3>
+          <div class="experience-block">
+            <div class="education-heading">
+              <h5 class="dark">Flatiron School<br />New York, NY<br />Spring 2019</h5>
+            </div>
+            <div class="education-body">
+              <ul>
+                <li>Immersive full-stack software engineering program with technical focus on JavaScript and Ruby frameworks</li>
+                <li>Created 4 fully functioning applications using Ruby on Rails, vanilla JavaScript, React, and Redux</li>
+              </ul>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="experience-block">
+            <div class="education-block">
+              <div class="education-heading">
+                <h5 class="dark">New York University<br />New York, NY<br />B.S. Winter 2016</h5>
+              </div>
+              <div class="education-body">
+                <ul>
+                  <li>Leonard N. Stern School of Business B.S., Finance & Management, GPA: 3.7 </li>
+                  <li>Awards: Irving H. Isaac Scholarship; Joan & Dan Holmes Scholarship; Suh Family Scholarship </li>
+                  <li>Teacher’s Assistant by invitation, International Financial Management, Fall 2015 </li>
+                  <li>Activities: </li>
+                    <ul>
+                      <li>Director of Marketing & Secretary, Politics Society at NYU, Fall 2014 - Winter 2016</li>
+                      <li>Director of Marketing, Luxury and Retail Association, Fall 2015</li>
+                    </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of the Education Section -->
+
+      <div class="outer-block" id="skills">
+        <br />
+        <br />
+        <h3>SKILLS & INTERESTS</h3>
+        <div class="experience-block">
+          <ul>
+            <li><span class="dark">Spoken Languages:</span> Fluent Mandarin Chinese; Conversational French </li>
+            <li><span class="dark">Technical Skills:</span> VBA, HTML/CSS, Ruby/Ruby on Rails, SQL, JavaScript, React, Redux, Python </li>
+            <li><span class="dark">Other Skills:</span> Proficient in Excel modeling; advanced knowledge of Bloomberg terminal; proficient in PowerPoint template building & deck design; public speaking & pitching</li>
+            <li><span class="dark">Interests:</span> passionate artist, focusing on acrylic painting & drawing; dabbling in fashion design & couture gown making; cooking & baking comfort food; avid globe trotter</li>
+          </ul>
+        </div>
+        <p class="download-link"><a href="">Click here</a> to download resume in a PDF format</p>
+      </div>
+
+      <div class="outer-block" id="contact">
+
+      </div>
+
+
+  </body>
+
+  <script src="index.js" ></script>
+</html>
